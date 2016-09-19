@@ -1,0 +1,80 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:l="sap.ui.layout"
+xmlns:ux="sap.uxap"
+		controllerName="invitation.controller.WelcomePage" xmlns:html="http://www.w3.org/1999/xhtml">
+	<html:style>
+      .imageCss {
+          width: 100%;
+          opacity :0.5;
+      }
+      .paddingCss {
+      	    background-color: transparent;
+      }
+      
+      .paddingCss .sapUxAPObjectPageHeaderContent{
+          padding-left:0px;
+          margin-left:15px;
+          margin-right:15px
+      }
+       .paddingCss .sapUxAPObjectPageSectionHeader{
+      display : none;
+     
+      
+    <!--  .paddingCss .sapUxAPObjectPageHeaderContent {
+      	    background-color: transparent;
+      } -->
+        .appCss{
+		     display: block;
+    background-image: url(invitation/BackgroundImage/2png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+      }
+   </html:style>
+   <Shell>
+	<App backgroundImage="invitation/BackgroundImage/ll2.jpg">
+	<pages>
+	<Page title="Title" enableScrolling="true"  showHeader="false">
+		<content>
+		<ux:ObjectPageLayout id="ObjectPageLayout" alwaysShowContentHeader ="true" class="paddingCss" >
+		<ux:headerContent id="headerContentID" >
+									<Image
+					src="invitation/BackgroundImage/64848.jpg"
+								densityAware="false"
+					width="100%" 
+					height="150px" >
+		</Image> 
+		
+		<!-- <l:VerticalLayout id="countDownId" width="100%" heigth = "100%" class="sapUiLargeMarginTop sapUiLargeMarginBegin sapUiLargeMarginEnd">
+		</l:VerticalLayout> -->
+							
+		</ux:headerContent>
+		<ux:sections>
+			<ux:ObjectPageSection >
+				<ux:subSections>
+					<ux:ObjectPageSubSection title="Our wedding details">
+						<ux:blocks>
+		<l:VerticalLayout id="verticalLayoutId" width="90%" heigth = "100%" class="sapUiLargeMarginBegin sapUiLargeMarginEnd">
+		</l:VerticalLayout>
+							</ux:blocks>
+					</ux:ObjectPageSubSection>
+				</ux:subSections>
+			</ux:ObjectPageSection>
+		</ux:sections>
+		</ux:ObjectPageLayout>
+		<!-- <l:VerticalLayout >
+		<Image
+					src="invitation/BackgroundImage/2png.png"
+					densityAware="false"
+					width="100%" class="imageCss" >
+		</Image>
+		
+		<l:VerticalLayout id="verticalLayoutId" width="90%" heigth = "100%" class="sapUiLargeMarginBegin sapUiLargeMarginEnd">
+		</l:VerticalLayout>
+		</l:VerticalLayout> -->
+		<!-- </ScrollContainer> -->
+		</content>
+	</Page>
+	</pages>
+	</App>
+	</Shell>
+</core:View>

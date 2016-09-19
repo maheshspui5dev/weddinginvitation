@@ -1,0 +1,114 @@
+{  
+   "CoupleImage":"wedding/MasterListImages/CoupleImage.jpg",
+   "MasterPageTitle":"wedding",
+   "Data":{
+    "InvitationData":[
+      {  
+         "Date":"May 2016",
+         "Position" : "left",
+         "Month":"feb 03",
+         "HeaderName":"About Us",
+         "Image":"wedding/MasterListImages/AboutUs2.png",
+         "Description":"wedding/MasterListImages/AboutUs2.png",
+         "couples":[{
+           "Name" : "Juliet",
+           "Education" :"Mtech @PESIT",
+           "Designation":"Software Tester",
+           "Company":"Google",
+           "Address":"#12 P. Rasveern, 52 Waaby Way, caliber,  Australia",
+           "Image":"invitation/couple/bride.jpg"
+           
+         },{
+           "Name" : "Romeo",
+         	"Education" :"Mtech @BIT",
+           "Designation":"Software Engineer",
+           "Company":"SAP labs",
+            "Address":" #55 P. Rscoo, 52 Waaby Way, sydney, Australia",
+            "Image":"invitation/couple/groom.jpg"
+         }]
+      },
+      {  
+         "Date":"",
+         "Position" : "right",
+         "Month":"feb 03",
+         "HeaderName":"Reception",
+         "Image":"wedding/MasterListImages/AboutUs2.png",
+         "Description":"wedding/MasterListImages/AboutUs2.png",
+          "receptionVenue":[{
+           "Name" : "Juliet",
+           "Education" :"Mtech @PESIT",
+           "Designation":"Software Tester",
+           "Company":"Google",
+           "Address":"#12 P. Rasveern, 52 Waaby Way, caliber,  Australia",
+           "Image":"invitation/couple/bride.jpg"
+           
+         },{
+           "Name" : "Romeo",
+         	"Education" :"Mtech @BIT",
+           "Designation":"Software Engineer",
+           "Company":"SAP labs",
+            "Address":" #55 P. Rscoo, 52 Waaby Way, sydney, Australia",
+            "Image":"invitation/couple/groom.jpg"
+         }]
+      },
+      {  
+         "Date":"",
+         "Position" : "left",
+         "Month":"march 04",
+         "HeaderName":"Wedding",
+         "Image":"wedding/MasterListImages/AboutUs2.png",
+         "Description":"wedding/MasterListImages/AboutUs2.png",
+            "weddingVenue":[{
+           "Name" : "Juliet",
+           "Education" :"Mtech @PESIT",
+           "Designation":"Software Tester",
+           "Company":"Google",
+           "Address":"#12 P. Rasveern, 52 Waaby Way, caliber,  Australia",
+           "Image":"invitation/couple/bride.jpg"
+           
+         },{
+           "Name" : "Romeo",
+         	"Education" :"Mtech @BIT",
+           "Designation":"Software Engineer",
+           "Company":"SAP labs",
+            "Address":" #55 P. Rscoo, 52 Waaby Way, sydney, Australia",
+            "Image":"invitation/couple/groom.jpg"
+         }]
+      },
+      {  
+         "Date":"",
+         "Position" : "right",
+         "Month":"June 10",
+         "HeaderName":"Contact Persons",
+         "Image":"wedding/MasterListImages/AboutUs2.png",
+         "Description":"wedding/MasterListImages/AboutUs2.png",
+          "contactPersons":[{
+           "Title" : "Uncle",
+           "Name" : "John1",
+           "Description" :"bla bal bla ",
+           "ContactNumber":"1234567890",
+           "Image":"invitation/contactPersons/c1.jpg"
+           
+           
+         },
+         {
+           "Title" : "Cousin",
+           "Name" : "Ronald",
+           "Description" :"bla bal bla ",
+           "ContactNumber":"1234567891",
+            "Image":"invitation/contactPersons/c2.jpg"
+           
+         },
+         {
+           "Title" : "Brother",
+           "Name" : "Ronald",
+           "Description" :"bla bal bla ",
+           "ContactNumber":"1234567892",
+            "Image":"invitation/contactPersons/c3.jpg"
+           
+         }]
+      }      
+   ]
+     
+   }
+}
